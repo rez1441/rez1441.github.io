@@ -1,3 +1,103 @@
-{"name":"rez1441.github.io - index.html","type":"code/html","content":"<!doctype html>\n<html lang="fa" dir="rtl">\n<head>\n  <meta charset="utf-8">\n  <meta name="viewport" content="width=device-width,initial-scale=1">\n  <title>اکستنشن مژه — رزرو و نمونه‌کار</title>\n  <meta name="description" content="سالن اکستنشن مژه در فردیس — نمونه‌کار، قیمت‌ها و رزرو از طریق واتساپ یا تماس مستقیم">\n  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">\n  <style>\n    :root{\n      --rose:#d98c8c; /* رزگلد ملایم */\n      --accent:#e9c7c7;\n      --bg:#fffdfd;\n      --muted:#777;\n      --card-shadow: 0 6px 24px rgba(16,24,40,0.08);\n      --radius:18px;\n    }\n    {box-sizing:border-box}\n    body{font-family:'Poppins',system-ui,Arial; margin:0; background:var(--bg); color:#111}\n    a{color:inherit;text-decoration:none}\n    .container{max-width:1100px;margin:0 auto;padding:24px}\n\n    / Header / Hero /\n    header.hero{display:flex;align-items:center;gap:28px;padding:48px 0}\n    .hero-left{flex:1}\n    .logo{display:flex;align-items:center;gap:12px}\n    .logo .mark{width:56px;height:56px;border-radius:14px;background:linear-gradient(135deg,var(--rose),#f6dede);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display';font-weight:700;color:#6b2b2b}\n    h1{font-family:'Playfair Display',serif;font-size:34px;margin:12px 0}\n    p.lead{color:var(--muted);margin:8px 0 20px}\n    .ctas{display:flex;gap:12px}\n    .btn{padding:12px 18px;border-radius:12px;border:0;cursor:pointer;font-weight:600;box-shadow:var(--card-shadow);}\n    .btn-primary{background:linear-gradient(90deg,var(--rose),#f2a6a6);color:#fff}\n    .btn-ghost{background:transparent;border:1px solid #eee}\n\n    .hero-right{flex-basis:420px}\n    .hero-card{background:linear-gradient(180deg,#fff, #fff);border-radius:20px;box-shadow:var(--card-shadow);overflow:hidden}\n    .hero-card img{width:100%;height:100%;object-fit:cover;display:block}\n\n    / Services /\n    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:28px 0}\n    .service{background:#fff;border-radius:14px;padding:18px;box-shadow:var(--card-shadow)}\n    .service h3{margin:0 0 6px;font-size:18px}\n    .service p{margin:0;color:var(--muted);font-size:14px}\n\n    / Gallery /\n    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:22px 0}\n    .gallery img{width:100%;height:200px;object-fit:cover;border-radius:12px;display:block}\n\n    / About & contact /\n    .about{display:flex;gap:18px;align-items:center;margin:26px 0}\n    .about img{width:200px;border-radius:14px;object-fit:cover}\n    .map{border-radius:12px;overflow:hidden;box-shadow:var(--card-shadow)}\n\n    footer{margin-top:34px;padding:22px 0;border-top:1px solid #f3eaea;color:var(--muted);display:flex;justify-content:space-between;align-items:center}\n\n    / responsive /\n    @media(max-width:880px){\n      header.hero{flex-direction:column}\n      .hero-right{width:100%}\n      .about{flex-direction:column}\n      .about img{width:100%}\n    }\n\n    / small flourishes */\n    .badge{display:inline-block;background:linear-gradient(90deg,#fff5f5,#fff);padding:8px 12px;border-radius:999px;font-weight:600}\n    .price{font-weight:700;color:#6b2b2b}\n    .muted{color:var(--muted)}\n    .shadow-sm{box-shadow:0 6px 18px rgba(16,24,40,0.06)}\n  </style>\n</head>\n<body>\n  <main class="container">\n    <header class="hero" role="banner">\n      <div class="hero-left">\n        <div class="logo">\n          <div class="mark">مژ</div>\n          <div>\n            <div class="badge">اکستنشن مژه</div>\n            <div class="muted" style="font-size:13px;margin-top:6px">فردیس — متخصص اکستنشن کلاسیک، والیوم و مگا</div>\n          </div>\n        </div>\n\n        <h1>زیبایی نگاهتان، تخصص ماست</h1>\n        <p class="lead">خدمات حرفه‌ای اکستنشن مژه با متریال اورجینال، محیطی بهداشتی و تیمی متخصص. برای اولین وقت خودتان را همین الآن رزرو کنید.</p>\n\n        <div class="ctas">\n          <!-- WhatsApp link: change to international format if needed -->\n          <a class="btn btn-primary" href="https://wa.me/989010728908" target="_blank" rel="noopener">ارسال پیام واتساپ</a>\n          <a class="btn btn-ghost" href="tel:+989010728908">تماس مستقیم</a>\n        </div>\n\n        <div style="margin-top:18px;color:var(--muted);font-size:14px">ساعات کاری: شنبه تا پنج‌شنبه — ۱۰:۰۰ تا ۲۰:۰۰</div>\n      </div>\n\n      <div class="hero-right">\n        <div class="hero-card">\n          <!-- placeholder elegant image from Unsplash -->\n          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=9b2b8f6c6b6f3f3a0c6a" alt="نمونه اکستنشن مژه">\n        </div>\n      </div>\n    </header>\n\n    <!-- Services & Prices -->\n    <section>\n      <h2 style="font-family:'Playfair Display';margin-bottom:8px">خدمات و قیمت‌ها</h2>\n      <div class="services">\n        <div class="service">\n          <h3>اکستنشن کلاسیک</h3>\n          <p class="muted">طبیعی و سبک — مناسب برای کسانی که دنبال جلوه‌ی طبیعی‌تر هستند.</p>\n          <div style="margin-top:12px">قیمت: <span class="price">300,000 تومان</span></div>\n        </div>\n\n        <div class="service">\n          <h3>والیوم</h3>\n          <p class="muted">پرپشت‌تر و جذاب‌تر — مناسب برای جلوه‌ی چشم‌گیرتر.</p>\n          <div style="margin-top:12px">قیمت: <span class="price">450,000 تومان</span></div>\n        </div>\n\n        <div class="service">\n          <h3>مگا والیوم</h3>\n          <p class="muted">حجم زیاد و لوکس — برای برنامه‌ها و مهمانی‌های خاص.</p>\n          <div style="margin-top:12px">قیمت: <span class="price">600,000 تومان</span></div>\n        </div>\n\n      </div>\n    </section>\n\n    <!-- Gallery -->\n    <section>\n      <h2 style="font-family:'Playfair Display';margin-bottom:8px">نمونه‌کارها</h2>\n      <div class="gallery">\n        <img src="https://images.unsplash.com/photo-1556228453-2f01b52a84d9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=6c3f0d0b9a9b" alt="نمونه 1">\n        <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=9b032c3d3f9e" alt="نمونه 2">\n        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c44367e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=4a3f7f2b6e5f" alt="نمونه 3">\n        <img src="https://images.unsplash.com/photo-1622016951961-6b6f9e7b7a2b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1f2a" alt="نمونه 4">\n      </div>\n    </section>\n\n    <!-- About & Map -->\n    <section class="about">\n      <div style="flex:1">\n        <h2 style="font-family:'Playfair Display';margin-bottom:8px">درباره ما</h2>\n        <p class="muted">من در فردیس با بیش از چند سال تجربه در اکستنشن مژه، از متریال باکیفیت استفاده می‌کنم و سلامت مشتری را در اولویت می‌گذارم. فضای کار بهداشتی و آرام است تا مشتری بهترین تجربه را داشته باشد.</p>\n\n        <ul style="margin-top:12px;color:var(--muted)">\n          <li>مواد اورجینال</li>\n          <li>استریل و بهداشتی</li>\n          <li>مشاوره قبل از انجام کار</li>\n        </ul>\n\n        <div style="margin-top:14px">\n          <a class="btn btn-primary" href="https://wa.me/989010728908" target="_blank" rel="noopener">رزرو از طریق واتساپ</a>\n        </div>\n      </div>\n\n      <div style="flex:1">\n        <div class="map">\n          <!-- Google Maps embed searching for \"Fardis, Iran\" -->\n          <iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps?q=Fardis,+Alborz,+Iran&output=embed" allowfullscreen></iframe>\n        </div>\n      </div>\n    </section>\n\n    <footer>\n      <div>\n        <div style="font-weight:700">اکستنشن مژه</div>\n        <div style="font-size:14px;color:var(--muted);margin-top:6px">فردیس — تماس: 09010728908</div>\n      </div>\n      <div style="text-align:left">\n        <div class="muted">© همه حقوق برای اکستنشن مژه محفوظ است</div>\n      </div>\n    </footer>\n\n  </main>\n\n  <!-- small friendly script: scroll to top smooth if needed -->\n  <script>\n    // ensure WhatsApp phone format note for owner:\n    console.log('Reminder: confirm the WhatsApp number is the international format without + (e.g. 989012345678)');\n  </script>\n</body>\n</html>"}
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>اکستنشن مژه — رزرو و نمونه‌کار</title>
+  <meta name="description" content="سالن اکستنشن مژه در فردیس — نمونه‌کار، قیمت‌ها و رزرو از طریق واتساپ یا تماس مستقیم" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero" role="banner">
+      <div class="hero-left">
+        <div class="logo">
+          <div class="mark">مژ</div>
+          <div>
+            <div class="badge">اکستنشن مژه</div>
+            <div class="muted location">فردیس — متخصص اکستنشن کلاسیک، والیوم و مگا</div>
+          </div>
+        </div>
 
+        <h1>زیبایی نگاهتان، تخصص ماست</h1>
+        <p class="lead">خدمات حرفه‌ای اکستنشن مژه با متریال اورجینال، محیطی بهداشتی و تیمی متخصص. برای اولین وقت خودتان را همین الآن رزرو کنید.</p>
 
+        <div class="ctas">
+          <a class="btn btn-primary" href="https://wa.me/989010728908" target="_blank" rel="noopener">ارسال پیام واتساپ</a>
+          <a class="btn btn-ghost" href="tel:+989010728908">تماس مستقیم</a>
+        </div>
+
+        <div class="working-hours">ساعات کاری: شنبه تا پنج‌شنبه — ۱۰:۰۰ تا ۲۰:۰۰</div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=9b2b8f6c6b6f3f3a0c6a" alt="نمونه اکستنشن مژه" />
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>خدمات و قیمت‌ها</h2>
+      <div class="services">
+        <div class="service">
+          <h3>اکستنشن کلاسیک</h3>
+          <p class="muted">طبیعی و سبک — مناسب برای کسانی که دنبال جلوه‌ی طبیعی‌تر هستند.</p>
+          <div class="price">قیمت: 300,000 تومان</div>
+        </div>
+
+        <div class="service">
+          <h3>والیوم</h3>
+          <p class="muted">پرپشت‌تر و جذاب‌تر — مناسب برای جلوه‌ی چشم‌گیرتر.</p>
+          <div class="price">قیمت: 450,000 تومان</div>
+        </div>
+
+        <div class="service">
+          <h3>مگا والیوم</h3>
+          <p class="muted">حجم زیاد و لوکس — برای برنامه‌ها و مهمانی‌های خاص.</p>
+          <div class="price">قیمت: 600,000 تومان</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <h2>نمونه‌کارها</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1556228453-2f01b52a84d9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=6c3f0d0b9a9b" alt="نمونه 1" />
+        <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=9b032c3d3f9e" alt="نمونه 2" />
+        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c44367e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=4a3f7f2b6e5f" alt="نمونه 3" />
+        <img src="https://images.unsplash.com/photo-1622016951961-6b6f9e7b7a2b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1f2a" alt="نمونه 4" />
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-text">
+        <h2>درباره ما</h2>
+        <p>من در فردیس با بیش از چند سال تجربه در اکستنشن مژه، از متریال باکیفیت استفاده می‌کنم و سلامت مشتری را در اولویت می‌گذارم. فضای کار بهداشتی و آرام است تا مشتری بهترین تجربه را داشته باشد.</p>
+        <ul>
+          <li>مواد اورجینال</li>
+          <li>استریل و بهداشتی</li>
+          <li>مشاوره قبل از انجام کار</li>
+        </ul>
+        <a class="btn btn-primary" href="https://wa.me/989010728908" target="_blank" rel="noopener">رزرو از طریق واتساپ</a>
+      </div>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps?q=Fardis,+Alborz,+Iran&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-left">
+        <div class="footer-title">اکستنشن مژه</div>
+        <div class="footer-contact">فردیس — تماس: 09010728908</div>
+      </div>
+      <div class="footer-right">
+        © همه حقوق برای اکستنشن مژه محفوظ است
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
